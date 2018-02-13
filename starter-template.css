@@ -1,0 +1,45 @@
+body {
+	padding-top: 50px;
+}
+.row:first-child {
+	padding-top: 20px;
+}
+.svg-color {
+	fill: #cc0000;
+}
+.hover-color:hover {
+	fill: #cc0000;
+}
+.red {
+	background-color: #cc0000;
+	color: #ffffff;
+}
+th {
+	background-color: #f5f5f5
+}
+.padding-top {
+	padding-top: 100px;
+}
+
+.popover-title{
+background-image: url(https://cdn2.iconfinder.com/data/icons/flags_gosquared/24/United-Kingdom_flat.png);
+background-repeat: no-repeat;
+background-position-x: 4px;
+padding: 6px 10px 8px 40px
+}
+
+.popover-content{
+background-image: url(https://cdn2.iconfinder.com/data/icons/flags_gosquared/24/Spain_flat.png);
+background-repeat: no-repeat;
+background-position-x: 4px;
+padding: 4px 10px 8px 40px;
+}
+
+@media (max-width:768px) {
+.vertical-align {
+	display: block;
+}
+.padding-top {
+	padding-top: 40px;
+}
+}
